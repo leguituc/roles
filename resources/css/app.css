@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.boton {
+    @apply text-white px-2 py-1 my-2;
+}
+
+.boton_editar {
+    @apply boton bg-green-900 hover:bg-green-800;
+}
+
+.boton_eliminar {
+    @apply boton bg-red-900 hover:bg-red-800;
+}
+
+.boton_nuevo {
+    @apply boton bg-blue-900 hover:bg-blue-800;
+}
+
+.celda {
+    @apply border border-2 border-blue-300 px-2;
+}
+
+.celda_cabecera {
+    @apply bg-blue-300;
+}
